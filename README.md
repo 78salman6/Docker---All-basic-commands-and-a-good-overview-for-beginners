@@ -13,8 +13,8 @@ systemctl start docker
 #### docker run -d -p 4000:80 friendlyhello  -----------# Same thing, but in detached mode
 #### docker container ls  ---------------------------------# List all running containers
 #### docker container ls -a   ------------------------------# List all containers, even those not running
-#### docker container stop cont_name   -------------------# Gracefully stop the specified container
-#### docker container kill cont_name   --------------------# Force shutdown of the specified container
+#### docker container stop cont_name   -----------------# Gracefully stop the specified container
+#### docker container kill cont_name   ------------------# Force shutdown of the specified container
 #### docker container rm name     ------------------------# Remove specified container from this machine
 #### docker container rm $(docker container ls -a -q) # Remove all containers
 #### docker image ls -a   ----------------------------------# List all images on this machine
