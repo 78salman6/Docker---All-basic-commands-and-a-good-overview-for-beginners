@@ -119,10 +119,10 @@
 
 ### Now run the docker 
 ### Now to do SSH from any machine
-    ### ssh  root@10.177.218.23 -p 6001
+    ssh  root@10.177.218.23 -p 6001
 
 ## To run multiple services in Docker container run all the services in background except one.
-    ### /usr/sbin/sshd -D &>/dev/null &
+    /usr/sbin/sshd -D &>/dev/null &
 
 
 
