@@ -8,11 +8,11 @@ docker exec -ti cc55da85b915 /bin/sh
 systemctl start docker
 
 ## Basic Commands:
-#### docker build -t friendlyhello .    -----------------# Create image using this directory's Dockerfile
-#### docker run -p 4000:80 friendlyhello     ----------# Run "friendlyhello" mapping port 4000 to 80
-#### docker run -d -p 4000:80 friendlyhello  -------# Same thing, but in detached mode
-#### docker container ls  -----------------------------# List all running containers
-#### docker container ls -a   --------------------------# List all containers, even those not running
+#### docker build -t friendlyhello .    -------------------# Create image using this directory's Dockerfile
+#### docker run -p 4000:80 friendlyhello     ------------# Run "friendlyhello" mapping port 4000 to 80
+#### docker run -d -p 4000:80 friendlyhello  ---------# Same thing, but in detached mode
+#### docker container ls  -------------------------------# List all running containers
+#### docker container ls -a   ----------------------------# List all containers, even those not running
 #### docker container stop name   ---------------------# Gracefully stop the specified container
 #### docker container kill name   ----------------------# Force shutdown of the specified container
 #### docker container rm name     ----------------------# Remove specified container from this machine
