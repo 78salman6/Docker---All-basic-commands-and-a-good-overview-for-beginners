@@ -13,15 +13,15 @@ systemctl start docker
 #### docker run -d -p 4000:80 friendlyhello  -----------# Same thing, but in detached mode
 #### docker container ls  ---------------------------------# List all running containers
 #### docker container ls -a   ------------------------------# List all containers, even those not running
-#### docker container stop name   -----------------------# Gracefully stop the specified container
-#### docker container kill name   ------------------------# Force shutdown of the specified container
+#### docker container stop cont_name   -------------------# Gracefully stop the specified container
+#### docker container kill cont_name   --------------------# Force shutdown of the specified container
 #### docker container rm name     ------------------------# Remove specified container from this machine
 #### docker container rm $(docker container ls -a -q) # Remove all containers
 #### docker image ls -a   ----------------------------------# List all images on this machine
 #### docker image rm image_id  ------------------------# Remove specified image from this machine
 #### docker image rm $(docker image ls -a -q)  -------# Remove all images from this machine
-#### docker login   -----------------------------------# Log in this CLI session using your Docker credentials
-#### docker tag <image> username/repository:tag   -----# Tag <image> for upload to registry
+#### docker login   ---------------------------------------# Log in this CLI session using your Docker credentials
+#### docker tag image_name username/repository:tag   -----# Tag <image> for upload to registry
 #### docker push username/repository:tag    -----------# Upload tagged image to registry
 #### docker run username/repository:tag     -----------# Run image from a registry
 
