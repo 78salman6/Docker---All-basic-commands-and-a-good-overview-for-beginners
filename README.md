@@ -122,7 +122,8 @@
     ssh  root@10.177.218.23 -p 6001
 
 ## To run multiple services in Docker container run all the services in background except one.
-    /usr/sbin/sshd -D &>/dev/null &
+    Example to run a service in background
+          /usr/sbin/sshd -D &>/dev/null &
 
 
 
