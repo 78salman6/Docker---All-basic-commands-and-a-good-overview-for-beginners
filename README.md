@@ -1,12 +1,5 @@
 # Docker---All-basic-commands-and-a-good-overview-for-beginners
 
-Docker
-Docker Image:	
-To login into Docker container
-->This does not work always - docker exec -ti cc55da85b915 /bin/bash
-docker exec -ti cc55da85b915 /bin/sh
-systemctl start docker
-
 ## Basic Commands:
 #### docker build -t friendlyhello .    ---------------------# Create image using this directory's Dockerfile
 #### docker run -p 4000:80 friendlyhello     --------------# Run "friendlyhello" mapping port 4000 to 80
@@ -24,7 +17,7 @@ systemctl start docker
 #### docker tag image_name username/repository:tag   -# Tag image_name for upload to registry
 #### docker push username/repository:tag    ----------# Upload tagged image to registry
 #### docker run username/repository:tag     -----------# Run image from a registry
-#### docker exec -ti cont_name/id /bin/sh   -----------# ssh into container from same machine in which container is running
+#### docker exec -ti cont_name/id /bin/sh   ----------# ssh into container from same machine in which container is running
 
 
 ## About Services: 
