@@ -36,13 +36,13 @@ systemctl start docker
      Either way, the container ID changes, demonstrating the load-balancing; with each request, one of the 5 tasks is chosen, in a round-robin fashion, to respond.
 
 ## Basic Commands related to services:
-#### docker stack ls      ---------------------------------------------# List stacks or apps
-#### docker stack deploy -c composefile_name app_name  ------------------# Run the specified Compose file
-#### docker service ls    ---------------------------------------------# List running services associated with an app
+#### docker stack ls      ----------------------------------------------------# List stacks or apps
+#### docker stack deploy -c composefile_name app_name  --------------# Run the specified Compose file
+#### docker service ls    -------------------------------------------------# List running services associated with an app
 #### docker service ps service_name     ----------------------------------# List tasks associated with an app
-#### docker inspect task/container    ----------------------------# Inspect task or container
-#### docker container ls -q     ---------------------------------------# List container IDs
-#### docker stack rm <appname>     ------------------------------------# Tear down an application
+#### docker inspect task/container    --------------------------------# Inspect task or container
+#### docker container ls -q     ------------------------------------------# List container IDs
+#### docker stack rm app_name     ------------------------------------# Tear down an application
 #### docker swarm leave --force    ------------------------------------# Take down a single node swarm from the manager
 
 
