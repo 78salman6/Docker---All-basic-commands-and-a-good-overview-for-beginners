@@ -37,13 +37,13 @@ systemctl start docker
 
 ## Basic Commands related to services:
 #### docker stack ls      ------------------------------------------------------# List stacks or apps
-#### docker stack deploy -c composefile_name app_name  ------------# Run the specified Compose file
+#### docker stack deploy -c composefile_name app_name  -----------# Run the specified Compose file
 #### docker service ls    ---------------------------------------------------# List running services associated with an app
 #### docker service ps service_name     ----------------------------------# List tasks associated with an app
 #### docker inspect task/container    -----------------------------------# Inspect task or container
 #### docker container ls -q     --------------------------------------------# List container IDs
 #### docker stack rm app_name     --------------------------------------# Tear down an application
-#### docker swarm leave --force    --------------------------------------# Take down a single node swarm from the manager
+#### docker swarm leave --force    -------------------------------------# Take down a single node swarm from the manager
 
 
 ## Swarms:
