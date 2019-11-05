@@ -31,9 +31,9 @@ systemctl start docker
 
 ### First docker-compose.yml file:
         A docker-compose.yml file is a YAML file that defines how Docker containers should behave in production.
-A single container running in a service is called a task. Tasks are given unique IDs that numerically increment, up to the number of replicas
+        A single container running in a service is called a task. Tasks are given unique IDs that numerically increment, up to the number of replicas
         You can run curl -4 http://localhost:4000 several times in a row, or go to that URL in your browser and hit refresh a few times.
-Either way, the container ID changes, demonstrating the load-balancing; with each request, one of the 5 tasks is chosen, in a round-robin fashion, to respond.
+     Either way, the container ID changes, demonstrating the load-balancing; with each request, one of the 5 tasks is chosen, in a round-robin fashion, to respond.
 
 ## Basic Commands related to services:
 ### docker stack ls      ---------------------------------------------# List stacks or apps
