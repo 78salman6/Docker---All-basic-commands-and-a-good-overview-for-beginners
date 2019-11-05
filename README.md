@@ -20,9 +20,9 @@ systemctl start docker
 #### docker image ls -a   ----------------------------------# List all images on this machine
 #### docker image rm image_id  ------------------------# Remove specified image from this machine
 #### docker image rm $(docker image ls -a -q)  -------# Remove all images from this machine
-#### docker login   ---------------------------------------# Log in this CLI session using your Docker credentials
-#### docker tag image_name username/repository:tag   -----# Tag <image> for upload to registry
-#### docker push username/repository:tag    -----------# Upload tagged image to registry
+#### docker login   ----------------------------------------# Log in this CLI session using your Docker credentials
+#### docker tag image_name username/repository:tag   -# Tag image_name for upload to registry
+#### docker push username/repository:tag    ----------# Upload tagged image to registry
 #### docker run username/repository:tag     -----------# Run image from a registry
 
 
