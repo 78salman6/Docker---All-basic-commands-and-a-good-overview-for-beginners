@@ -24,6 +24,7 @@ systemctl start docker
 #### docker tag image_name username/repository:tag   -# Tag image_name for upload to registry
 #### docker push username/repository:tag    ----------# Upload tagged image to registry
 #### docker run username/repository:tag     -----------# Run image from a registry
+#### docker exec -ti cont_name/id /bin/sh   -----------# ssh into docker container from same machine in which container is running
 
 
 ## About Services: 
