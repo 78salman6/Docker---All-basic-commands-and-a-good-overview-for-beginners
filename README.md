@@ -17,8 +17,8 @@ systemctl start docker
 #### docker container kill name   ------------------------# Force shutdown of the specified container
 #### docker container rm name     ------------------------# Remove specified container from this machine
 #### docker container rm $(docker container ls -a -q) # Remove all containers
-#### docker image ls -a   -----------------------------# List all images on this machine
-#### docker image rm <image id>  ----------------------# Remove specified image from this machine
+#### docker image ls -a   --------------------------------# List all images on this machine
+#### docker image rm image_id  ----------------------# Remove specified image from this machine
 #### docker image rm $(docker image ls -a -q)  --------# Remove all images from this machine
 #### docker login   -----------------------------------# Log in this CLI session using your Docker credentials
 #### docker tag <image> username/repository:tag   -----# Tag <image> for upload to registry
